@@ -6,7 +6,7 @@ export default function PageOrders() {
   return (
     <Box py={3}>
       <Typography variant="h6" gutterBottom>
-        Manage orders
+        Manage Orders Here
       </Typography>
       <Orders />
     </Box>

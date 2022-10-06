@@ -86,7 +86,7 @@ export default function PageCart() {
   return (
     <PaperLayout>
       <Typography component="h1" variant="h4" align="center">
-        Checkout
+        Checkout Here
       </Typography>
       <Stepper
         activeStep={activeStep}

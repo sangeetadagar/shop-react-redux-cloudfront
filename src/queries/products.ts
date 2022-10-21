@@ -11,9 +11,7 @@ export function useAvailableProducts() {
       const res = await axios.get<AvailableProduct[]>(
         `${API_PATHS.bff}/products`
       );
-      const data = res.data;
-      const { body }: any = data;
-      return body;
+      return res.data;
     }
   );
 }

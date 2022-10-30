@@ -12,7 +12,6 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
   const [file, setFile] = React.useState<File>();
 
   const onFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log('change::',e);
     const files = e.target.files;
     if (files && files.length > 0) {
       const file = files[0];
